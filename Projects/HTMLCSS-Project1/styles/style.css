@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow:hidden;
+    font-family: 'Poppins','sans-serif';
+
+}
+body {
+    height: 100vh;
+    width:100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap:130px;
+    
+}
+header {
+    display: flex;
+    gap:220px;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px 0px;
+}
+
+nav {
+    display: flex;
+    
+}
+
+ nav ul  {
+display: flex;
+gap:40px;
+
+}
+ ul li {
+    list-style: none;
+    cursor: pointer;
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+ }
+
+ div {
+    display:inline-block;
+    margin: 0 20px;
+ }
+ button {
+    background-color: rgb(18,155,155);
+    padding :5px 10px;
+    cursor:pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    width:fit-content;
+ }
+ button:hover {
+    background-color: white;
+    color:rgb(18, 155, 155);
+    border:1px solid black;
+ }
+
+ #logo {
+ font-size:25px;
+ font-weight: bolder;
+ color:black;
+ }
+
+ nav ul li:hover{
+    font-weight: 900;;
+    text-decoration: underline;
+    background-color:#edf1fd ;
+ }
+ .search-fleid {
+    display: flex;
+    gap:10px;
+    box-sizing: border-box;
+ }
+ section {
+    display: flex;
+    flex-direction: row;
+    gap:130px;
+ }
+
+ .search-fleid input {
+    padding:5px 10px;
+    border:1px solid black;
+    border-radius:5px ;
+ }
+
+ .rightsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+ }
+ .leftsection {
+margin-right: 50px;
+
+ }
+
+ .leftsection h1 {
+    font-weight: 800;
+    font-size:38px;
+    padding: 15px 0px;
+ }
+ .leftsection h1 span {
+    color:rgb(18, 155, 155);
+    font-weight: 900;
+    background-color: #dfdfe0;
+ }
+ .leftsection p {
+    font-weight: 500;
+    font-size: 20px;
+ }
+ .leftsection p span {
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(18, 155, 155);
+ }
+ .rightsection img {
+    height: 180px;
+    width:180px;
+    border-radius: 50%;
+    
+ }
+ footer {
+    
+    font-weight: 600;
+    display: flex;
+    gap:300px;
+    justify-content: space-around;
+    padding: 0px 0px 20px 0px;
+    
+ }
+ footer ul {
+    display: flex;
+    gap:30px;
+    align-items: space-around;
+ }
