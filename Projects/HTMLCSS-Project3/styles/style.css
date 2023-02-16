@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -67,8 +69,9 @@ button {
 
 .heroheading {
     color: #ffc233;
-    font-size: 75px;
+    font-size: 65px;
     text-align: center;
+    font-family: "Dela Gothic One", "cursive";
 }
 
 .bottom {
