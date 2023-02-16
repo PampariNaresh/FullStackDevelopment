@@ -43,6 +43,11 @@ nav ul {
 
 a {
     text-decoration: none;
+    cursor: pointer;
+}
+
+#logo {
+    cursor: pointer;
 }
 
 nav div ul li a {
@@ -50,12 +55,23 @@ nav div ul li a {
     font-size: 18px;
 }
 
-button {
+.orderbutton {
     background-color: #ff515f;
     font-size: 18px;
     color: white;
     padding: 10px 20px;
     border: none;
+    cursor: pointer;
+    font-family: "Red Rose", sans-serif;
+}
+
+.readbutton {
+    background-color: #ff515f;
+    font-size: 18px;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
     font-family: "Red Rose", sans-serif;
 }
 
